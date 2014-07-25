@@ -1,5 +1,5 @@
 <?php
-require_once('PaypalClass.php'); 
+require_once('paypal.class.php'); 
 
 $paypal = new PaypalClass();       
 $paypal->payment_mode('sandbox');
