@@ -2,7 +2,7 @@ php-paypal-integration
 
 ======================
 
-PHP Paypal Integration
+PHP Paypal Integration - using Paypal Classic API Calls
 
 Recurring Payment Source : 
 https://www.paypal.com/ph/cgi-bin/webscr?cmd=_pdn_subscr_techview_outside
