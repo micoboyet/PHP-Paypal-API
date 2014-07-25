@@ -2,7 +2,7 @@
 date_default_timezone_set('Asia/Manila');
 ?>
 
-<form name="paypalForm" action="paypal.v2.php" method="post">
+<form name="paypalForm" action="paypal.php" method="post">
 <input type="hidden" name="id" value="123">
 <input type="hidden" name="CatDescription" value="Nike Janoski Neon White">
                        <input type="hidden" name="payment" value="10">  
