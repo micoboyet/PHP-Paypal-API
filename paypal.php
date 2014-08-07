@@ -9,6 +9,9 @@ $merchant_email = 'micoboyet.sandbox-facilitator@yahoo.com';
 
 if (empty($_GET['action'])) 
   $_GET['action'] = 'process';  
+  
+if(isset($_GET['auth']))
+  $_GET['action'] = 'success';
 
 switch ($_GET['action']) 
 {
