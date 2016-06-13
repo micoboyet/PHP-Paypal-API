@@ -70,7 +70,7 @@ switch ($_GET['action'])
          
          $subject = 'Instant Payment Notification - Received Payment';
          $to = $merchant_email;   
-         $body =  "An instant payment notification was successfully recieved\n";
+         $body =  "An instant payment notification was successfully received\n";
          $body .= "from ".$paypal->ipn_data['payer_email']." on ".date('m/d/Y');
          $body .= " at ".date('g:i A')."\n\nDetails:\n";
          $headers = "";
